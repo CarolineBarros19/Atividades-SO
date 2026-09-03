@@ -1,9 +1,0 @@
-#Declaração de variáveis
-deposito: float = 0.0
-valorFinal: float = 0.0
-
-#Início
-deposito = float(input("Digite o valor do depósito:"))
-valorFinal = deposito * 1.013
-print("Valor após 1 mês:", valorFinal)
-#Fim
