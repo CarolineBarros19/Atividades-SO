@@ -1,9 +1,0 @@
-#Declaração de variáveis
-lado: float = 0.0
-area: float = 0.0
-
-#início
-lado = float (input("digite o valor do lado do quadrado: "))
-area = lado * lado
-print("Área =", area)
-#fim
