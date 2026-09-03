@@ -1,0 +1,9 @@
+#Declaração de variáveis
+temperaturaC: float = 0.0
+temperaturaF: float = 0.0
+
+#Início
+temperaturaC = float(input("Temperatura em Celsius:"))
+temperaturaF = (9 * temperaturaC + 160) / 5
+print("Temperatura em Fahrenheit:", temperaturaF)
+#Fim
