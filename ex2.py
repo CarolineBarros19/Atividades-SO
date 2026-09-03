@@ -1,0 +1,9 @@
+#Declaração de variáveis
+salario: float= 0.0
+novosalario: float = 0.0
+
+#inicio
+salario = float(input("Digite seu salário: "))
+novosalario = salario * 1.15
+print("Novo salário:", novosalario)
+#fim
